@@ -1,0 +1,219 @@
+body {
+    background-color: #F9F9F9;
+    box-sizing: border-box;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.toppad {
+    padding-top: 80px;
+}
+
+.toppadmed {
+    padding-top: 60px;
+}
+
+.onlyapp {
+    height: 100%;
+}
+
+.vertcenter {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: perspective(1px) translateY(-50%);
+}
+
+.btn .btn-outline-light .btn-lg {
+    padding-bottom: 40px;
+    padding-top: 10px;
+}
+
+.hcri {
+    background: url('../img/housingcrisis/mainroom.jpg') no-repeat center center scroll;
+    background-size: 100%, 100%;
+}
+
+.fcon {
+    background: url('../img/familyconnection/familyform.jpeg') no-repeat center center scroll;
+    background-size: 100%, 100%;
+    height: 100%;
+}
+
+.ado {
+    background: url('../img/familyconnection/fam6.jpg') no-repeat center center scroll;
+    background-size: 100%, 100%;
+}
+
+.pado {
+    background: url('../img/petadopter/petadoption.jpeg') no-repeat center center scroll;
+    background-size: 100%, 100%;
+}
+
+.upla {
+    background: url('../img/unplannedpregnancy/pregnancy.jpeg') no-repeat center center scroll;
+    background-size: 100%, 100%;
+}
+
+.ffav {
+    background: url('../img/fastfavors/favor.jpg') no-repeat center center scroll;
+    background-size: 100%, 100%;
+}
+
+.happymother {
+    background: url('../img/familyconnection/happymother.jpg') no-repeat center center scroll;
+    background-size: 100%, 100%;
+    display: block;
+    height: 500px;
+}
+
+.wateringplants {
+    background: url('../img/fastfavors/wateringplants.jpg') no-repeat center center scroll;
+    background-size: 100%, 100%;
+    display: block;
+    height: 500px;
+}
+
+.rentroom {
+    background: url('../img/housingcrisis/rentroom.jpg') no-repeat center center scroll;
+    background-size: 100%, 100%;
+    display: block;
+    height: 500px;
+}
+
+.petadopted {
+    background: url('../img/petadopter/petadopter.jpg') no-repeat center center scroll;
+    background-size: 100%, 100%;
+    display: block;
+    height: 500px;
+}
+
+.uppreg {
+    background: url('../img/unplannedpregnancy/unpreg.jpg') no-repeat center center scroll;
+    background-size: 100%, 100%;
+    display: block;
+    height: 500px;
+}
+
+.cc {
+    background-size: 100%, 100%;
+    display: block;
+    height: 50%;
+    text-align: center;
+}
+
+.display-1 {
+    text-decoration: none;
+}
+
+.display-5 {
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+.about-me {
+    padding-left: 40px;
+}
+
+.communicate {
+    background-color: #d1d0c8;
+}
+
+.match {
+    background-color: #d1d0c8;
+}
+
+.paul {
+    background: url('../img/portraits/paul.png') no-repeat center center scroll;
+    background-size: 100%, 100%;
+    height: 200px;
+    width: 200px;
+}
+
+.jason {
+    background: url('../img/portraits/jason.jpg') no-repeat center center scroll;
+    background-size: 100%, 100%;
+    height: 200px;
+    width: 200px;
+}
+
+.vivian {
+    background: url('../img/portraits/vivian.jpg') no-repeat center center scroll;
+    background-size: 100%, 100%;
+    height: 200px;
+    width: 200px;
+}
+
+.lani {
+    background: url('../img/portraits/lani.png') no-repeat center center scroll;
+    background-size: 100%, 100%;
+    height: 200px;
+    width: 200px;
+}
+
+.bigiss {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/home/connections.jpg') no-repeat center center scroll;
+    background-size: 100%, 100%;
+}
+
+.ex-room {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/home/room.jpeg') no-repeat center center scroll;
+    background-size: 100%, 100%;
+}
+
+.adopt {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/home/adopter.png') no-repeat center center scroll;
+    background-size: 100%, 100%;
+}
+
+.fam-conn {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/home/family.jpg') no-repeat center center scroll;
+    background-size: 100%, 100%;
+}
+
+.favor {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/home/favor.jpeg') no-repeat center center scroll;
+    background-size: 100%, 100%;
+}
+
+.pet {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/home/pet.jpeg') no-repeat center center scroll;
+    background-size: 100%, 100%;
+}
+
+.unplanned {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/home/pregnancy.jpeg') no-repeat center center scroll;
+    background-size: 100%, 100%;
+}
+
+.overlay {
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.6);
+    text-align: center;
+}
+
+.masthead {
+    padding-top: 58px;
+}
+
+@media (min-width: 992px) {
+    header.masthead>.overlay {
+        padding: 10rem 0;
+    }
+}
+
+@media (min-width: 1200px) {
+    .navbar li {
+        margin-left: 0.25em;
+        margin-right: 0.25em;
+    }
+}
+
+@media (min-width: 992px) {
+    .navbar-brand {
+        display: none;
+    }
+}
